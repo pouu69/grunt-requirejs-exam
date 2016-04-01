@@ -1,0 +1,11 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+.idea
+./image
+./build/npm-debug.log
+*.swp
+
