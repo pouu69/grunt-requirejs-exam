@@ -7,6 +7,11 @@ module.exports = function(grunt) {
             compile:{
                 options:{
                     baseUrl : './',
+			beautify : false,
+			compress:{
+				comparisons : true,
+				drop_console: true
+			},
                     mainConfigFile : 'src/config.js',
                     name : 'src/config',
                     include:['src/main'],
@@ -17,7 +22,8 @@ module.exports = function(grunt) {
                     findNestedDependencies: true,
                     error : function(done, err){
                         grunt.log.warn(err);
-                    }
+                    },
+			tasts : ['uglify']
                 }
             }
         }
@@ -25,7 +31,7 @@ module.exports = function(grunt) {
 
     // Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
-
+	grunt.loadNpmTasks('grunt-contrib-uglify');
     // Default task(s).
     grunt.registerTask('default', ['requirejs']);
 
