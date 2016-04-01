@@ -5,6 +5,7 @@
 !*/cache/index.html
 !*/cache/.htaccess
 .idea
+./node_modules
 ./image
 ./build/npm-debug.log
 *.swp
