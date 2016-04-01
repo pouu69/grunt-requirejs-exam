@@ -1,0 +1,25 @@
+{
+  "name": "grunt-requirejs-exam",
+  "version": "1.0.0",
+  "description": "grunt requirejs integreate exam",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouu69/grunt-requirejs-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pouu69/grunt-requirejs-exam/issues"
+  },
+  "homepage": "https://github.com/pouu69/grunt-requirejs-exam#readme"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "grunt-requirejs-exam",
+  "description": "grunt requirejs integreate exam",
+  "main": "index.js",
+  "authors": [
+    "kupark <pouu69@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pouu69/grunt-requirejs-exam",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/js/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "requirejs": "^2.2.0"
+  }
+}
