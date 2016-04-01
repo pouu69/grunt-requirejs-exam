@@ -11,6 +11,7 @@ Gruntfile.js 에 다음과 같이 load 한다.
     grunt.loadNpmTasks('grunt-contrib-requirejs');
 
 #기본구조
+GruntFile.js 참고
 
     requirejs:{
      compile:{
