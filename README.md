@@ -33,7 +33,7 @@ output의 JS가 나오는 dir
 ###empty:
 library 들은 굳이 optimize 할 필요 없기 때문에 'empty:' 키워드로 제외 시킬 수 있다.
 
-###grunt running 하기
+##grunt running 하기
 이제 running 하기 위한 키워드이다.
 
     grunt requirejs
